@@ -7,8 +7,12 @@ font-family: Arial, Arial, Helvetica, sans-serif;
 border-bottom: 1px solid lightblue;
 padding-bottom: 20px;
 
+
 div {
     flex: 1;
+    
+    /* background-color: red; */
+
 }
 .info, .button {
     display: flex;
@@ -18,5 +22,9 @@ img {
     max-width: 80px;
     object-fit: cover;
     margin-left: 40px;
+
+
+    
 }
+
 `;

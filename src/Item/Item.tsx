@@ -18,7 +18,7 @@ export const Item: React.FC<Props> = ({item, handleAddToCart}) => {
                 <p>{item.description}</p>
                 <h3>${item.price}</h3>
             </div>
-            <Button onClick={() => handleAddToCart(item)}>Add To Cart</Button>
+            <Button  style={{backgroundColor: '#12824C', color: '#FFFFFF'}} onClick={() => handleAddToCart(item)}>Add To Cart</Button>
         </Wrapper>
     )
 }
