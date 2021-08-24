@@ -9,8 +9,8 @@ border: 1px solid lightblue;
 border-radius: 20px;
 height: 100%;
 
-button{  
-    border-radius: 0 0 20px 20px;
+button{
+    border-radius: 5px 5px 20px 20px;
 }
 img {
     max-height: 250px;
